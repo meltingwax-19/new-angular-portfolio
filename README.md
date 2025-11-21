@@ -91,7 +91,11 @@ npm install
 
 
 
-
+firebase login
+firebase init hosting
+# Public directory: dist/ng-portfolio-lonely/browser
+# Single-page app: Yes
+firebase deploy
 
 
 
