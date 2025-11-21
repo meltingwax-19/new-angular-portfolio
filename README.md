@@ -1,59 +1,143 @@
-# NgPortfolioLonely
+# NgPortfolioLonely  
+A personal portfolio website built with Angular and customized from a BootstrapMade template.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.10.
+### 🔗 Live Demo  
+Hosted on Firebase: **https://portfolio-217f5.web.app**
 
-## Development server
+---
 
-To start a local development server, run:
+## 📌 Overview  
+This project is a modern, responsive personal portfolio created using **Angular Standalone Components** (no NgModules) and styled with assets adapted from a BootstrapMade theme.  
+It showcases personal information, skills, and project examples, and is fully deployed on **Firebase Hosting**.
+
+This project fulfills the following assignment requirements:
+
+1. Selected a BootstrapMade template  
+2. Converted it into an Angular application using Standalone Components  
+3. Populated it with personalized content  
+4. Deployed it to Firebase Hosting  
+5. Submitted both the Firebase URL and GitHub repository  
+
+---
+
+## 🧑‍💻 Author  
+**Gad Enwe**  
+Frontend Developer & Web Enthusiast
+
+---
+
+## 🚀 Features  
+
+- Responsive Angular portfolio layout  
+- Standalone Angular components (Header, Hero, About, Skills, Portfolio, Contact, Footer)  
+- Custom styling adapted from BootstrapMade  
+- Smooth scrolling and active navigation states  
+- Portfolio gallery with custom images  
+- Firebase Hosting deployment  
+- Clean, maintainable code structure  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Angular 17+ (Standalone Components)**  
+- **TypeScript**  
+- **BootstrapMade UI assets**  
+- **HTML5 / SCSS**  
+- **Firebase Hosting**  
+- **Git & GitHub**  
+
+---
+
+## 📂 Project Structure  
+
+ng-portfolio-lonely/
+├── public/
+│ └── assets/
+│ ├── css/
+│ ├── js/
+│ ├── img/
+│ └── vendor/
+├── src/
+│ ├── app/
+│ │ ├── components/
+│ │ │ ├── header/
+│ │ │ ├── hero/
+│ │ │ ├── about/
+│ │ │ ├── skills/
+│ │ │ ├── portfolio/
+│ │ │ ├── contact/
+│ │ │ └── footer/
+│ │ ├── app.html
+│ │ ├── app.scss
+│ │ └── app.ts
+│ ├── assets/
+│ ├── index.html
+│ └── styles.scss
+├── angular.json
+├── package.json
+├── tsconfig.json
+└── dist/
+
+---
+
+## ⚙️ Running the Project Locally
+
+1️⃣ Install dependencies  
+
+```bash
+npm install
+
+---
+
+2️⃣ Start the development server
 
 ```bash
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Open your browser at:
 
-## Code scaffolding
+http://localhost:4200
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### 🏗️ Building the Project for Production
 
 ```bash
-ng generate --help
-```
 
-## Building
+ng build --configuration production
 
-To build the project run:
+### The build output is generated in:
 
 ```bash
-ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+dist/ng-portfolio-lonely/browser
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+☁️ Firebase Deployment (Steps Used)
 
 ```bash
-ng test
-```
 
-## Running end-to-end tests
+firebase login
+firebase init hosting
+# Public directory: dist/ng-portfolio-lonely/browser
+# Single-page app: Yes
+firebase deploy
+Deployment output:
+✔ Successfully deployed to Firebase
+✔ Live URL: https://portfolio-217f5.web.app
 
-For end-to-end (e2e) testing, run:
+📎 Repository
+GitHub Repo: https://github.com/meltingwax-19/new-angular-portfolio
 
-```bash
-ng e2e
-```
+📜 License
+This project is for educational and portfolio purposes.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+🙌 Acknowledgements
+BootstrapMade for the original UI theme
+Angular team for the Standalone Component architecture
+Firebase for free hosting
 
-## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+
