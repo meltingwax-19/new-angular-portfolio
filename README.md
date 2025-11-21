@@ -81,28 +81,6 @@ ng-portfolio-lonely/
 
 ---
 
-
-## ⚙️ Running the Project Locally
-
-### 1️⃣ Install dependencies
-```bash
-npm install
-
-
-
-
-firebase login
-firebase init hosting
-# Public directory: dist/ng-portfolio-lonely/browser
-# Single-page app: Yes
-firebase deploy
-
-
-
-
-
-
-
 ## ⚙️ Running the Project Locally
 
 1️⃣ Install dependencies  
