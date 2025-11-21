@@ -81,6 +81,24 @@ ng-portfolio-lonely/
 
 ---
 
+
+## ⚙️ Running the Project Locally
+
+### 1️⃣ Install dependencies
+```bash
+npm install
+
+
+
+
+
+
+
+
+
+
+
+
 ## ⚙️ Running the Project Locally
 
 1️⃣ Install dependencies  
